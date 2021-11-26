@@ -1,0 +1,23 @@
+
+
+Neruon
+
+Type: Add, Average
+Convolutionary: Yes, No
+Activation function: Identity, Binary Step, Logistic, Hyperbolic tangent, ReLU, SoftPlus, ELU, SELU, Leaky ReLU, PReLU, SiLU, Mish, Gaussian
+
+200 inputs
+
+Neuron: 0 - (n-1)
+Frame: 0 - (n-1)
+Weight: -double - double
+Convolution: -2 if neuron is non convolutionary, -1 if input is convolutionary, 0 - (#convolutions of neuron) if input is targeted
+
+e.g.
+
+Add, Yes, Identity
+
+Input 0: Neuron 0, Frame 0, Weight 1, Convolution -1
+Input 1: Neuron 0, Frame 1, Weight -1, Convolution -1
+
+This neuron should compare the open of each stock of the day before to today

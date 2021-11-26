@@ -1,0 +1,13 @@
+parameters:
+
+number of primary networks
+neurons per primary network
+convolutions per primary network
+
+day memory
+network inputs
+network output
+days
+cycles each day
+inputs per neuron
+

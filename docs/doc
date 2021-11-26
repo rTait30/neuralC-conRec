@@ -1,0 +1,5 @@
+recurrent, non-layered neural network with convolutionary stages for related data
+
+in the first stage networks will convolve through all related data
+data will be open and stored recursively for a final non convolutionary network to draw from
+all outputs will be generated from this final network

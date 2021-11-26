@@ -1,0 +1,37 @@
+main
+
+float network_inputs_primary1 [parameter 6] [convolution 1000] [day ] //stock
+
+float network_inputs_primary2 [parameter 1] [convolution 10000] [day]
+
+float neuron_outputs_primary1 [neurons 1000] [convolutions 1000] [days ago 200]
+
+float neuron_outputs_primary2 [neurons 1000] [convolutions 10000] [days ago 200]
+
+float neuron_outputs_main [neurons 1000] [days ago 200]
+
+function run_game (NN)
+
+	for (day)
+
+		
+		
+		(new data is entered into outputs)
+		
+		for (convolutionary networks):
+		
+			enter network data as temporary variable
+
+			for (convolutions)
+				
+				for (non input neurons = neuron)
+				
+					neuron_outputs[neuron][convolution][0] = (process neuron)
+					
+			
+		(run main network)
+					
+		(run game logic) from neuron_outputs[1000][all][0]
+		
+		(all outputs are pushed back a day)
+	
